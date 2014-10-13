@@ -1,0 +1,47 @@
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2012/11/05
+# 2014-10-09 -- Added button0 - button4
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 50 MHz HIGH 50%;
+
+# PlanAhead Generated physical constraints 
+NET "clk" LOC = P56;
+NET "rst_n" LOC = P38;
+
+NET "cclk" LOC = P70;
+
+NET "led<0>" LOC = P134;
+NET "led<1>" LOC = P133;
+NET "led<2>" LOC = P132;
+NET "led<3>" LOC = P131;
+NET "led<4>" LOC = P127;
+NET "led<5>" LOC = P126;
+NET "led<6>" LOC = P124;
+NET "led<7>" LOC = P123;
+
+NET "spi_mosi" LOC = P44;
+NET "spi_miso" LOC = P45;
+NET "spi_ss" LOC = P48;
+NET "spi_sck" LOC = P43;
+NET "spi_channel<0>" LOC = P46;
+NET "spi_channel<1>" LOC = P61;
+NET "spi_channel<2>" LOC = P62;
+NET "spi_channel<3>" LOC = P65;
+
+NET "avr_tx" LOC = P55;
+NET "avr_rx" LOC = P59;
+NET "avr_rx_busy" LOC = P39;
+
+NET "dac<0>" LOC = P2;
+NET "dac<1>" LOC = P6;
+NET "dac<2>" LOC = P8;
+NET "dac<3>" LOC = P10;
+NET "dac<4>" LOC = P12;
+NET "dac<5>" LOC = P15;
+NET "dac<6>" LOC = P17;
+NET "dac<7>" LOC = P22;
+
+NET "button<0>" LOC = P66;
+NET "button<1>" LOC = P74;
+NET "button<2>" LOC = P78;
+NET "button<3>" LOC = P80;
+NET "button<4>" LOC = P82;
